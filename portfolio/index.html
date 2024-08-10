@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - JATIN SAINI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="landing">
+            <div class="hero">
+                <img src="profile.jpg" alt="Profile Picture">
+                <h1>Hello, JATIN SAINI</h1>
+                <p>BCA Third Year Student</p>
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>[Your detailed introduction]</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: C, C++, Java, Python</li>
+                <li>Web Development: HTML, CSS, JavaScript, React</li>
+                <li>Database Management: MySQL, MongoDB</li>
+                <li>Other Skills: Problem Solving, Team Collaboration</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project Title</h3>
+                <p>[Project description]</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <p>Bachelor of Computer Applications, [Your University], [Year]</p>
+            <p>[Other educational details]</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="contact_form.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
